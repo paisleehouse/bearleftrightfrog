@@ -17,6 +17,21 @@ body {
     width: 500px;
     height: 500px;
     margin: 10px 15px 10px 0;
+    float: left;
+}
+
+h1 {
+    float: right;
+}
+
+/** ADD ENTRY **/
+#b-entry {
+    margin-top: 5px;
+}
+
+#submit {
+    background-color: #9DB899;
+    border-radius: 15%;
 }
 
 /** FOOTER **/
