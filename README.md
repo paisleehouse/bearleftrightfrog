@@ -1,2 +1,2 @@
 # bearleftrightfrog
-personal film and music blog
+personal blog

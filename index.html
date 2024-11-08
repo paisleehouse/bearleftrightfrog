@@ -1,59 +1,57 @@
 <!DOCTYPE html>
 <html lang="en">
-    <head>
-        <!--REQUIRED META TAGS-->
-        <meta charset="utf-8">
-        <meta http-equiv="X-UA-Compatible" content="IE=edge">
-        <meta name="viewport" content="width=device-width, initial-scale=1">
-        <title>bear left right frog</title>
-        <!--CSS-->
-        <link rel="stylesheet" type="text/css" href="css/bootstrap.min.css" />
-        <link rel="stylesheet" type="text/css" href="css/style.css" />
-    </head>
-
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="A simple blog website">
+    <title>My Blog</title>
+    <link rel="stylesheet" href="./css/styles.css">
+</head>
 <body>
-  
-  <!-- Header -->
-  <header>
-    <nav id="header-nav" class="navbar navbar-default">
+
+    <!-- Header -->
+    <header>
         <div class="container">
-            <div class="navbar-header">
-                <a href="index.html" class="home-page">
-                  <div id="logo-img" alt="Logo image"></div>
-                </a>
-            </div>
             <h1>bear left right frog</h1>
         </div>
-    </nav>
-  </header>
+    </header>
 
-  <!-- ADD ENTRY-->
-  <div id="blog-entry" class="blog">
-    <div class="container-blog">
-        <h2>new post</h2>
-        <textarea id="ind-entry" rows="8" cols="57"></textarea>
-        <input type="submit" id="submit" value="add entry">
-    </div>
-  </div>
+    <!-- Main Content -->
+    <main>
+        <div class="container">
+            <section class="search-bar">
+                <input type="text" id="searchInput" placeholder="Search blog posts..." onkeyup="searchPosts()">
+            </section>
+            <section class="blog-posts">
+                <article class="post" data-title="First Blog Post" data-excerpt="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed luctus malesuada justo a condimentum...">
+                    <h2 class="post-title">only ever bored at work</h2>
+                    <p class="post-meta">Published on <span class="post-date">November 7, 2024</span></p>
+                    <p class="post-excerpt">i realized a few years ago that i'll never truly love a job. i love creating and working but your standard 9-5 office job is a real drain.
+                      i don't think i'm unique in that feeling. i work in IT at a university. it's an okay job. i'm on the user services side of things so it means dealing with people a lot.
+                      it's not my favorite but i've done worse things. 
+                    </p>
+                </article>
+            </section>
 
-  <!-- PREVIOUS POSTS-->
-  <div id="past-posts" class="posts">
-    <div class="container">
+            <!-- Sidebar -->
+            <aside class="sidebar">
+                <h3>about:</h3>
+                <p>howdy, this blog was created for me to practice multiple skills: web design, coding, and writing. hope you enjoy!</p>
+            </aside>
+        </div>
+    </main>
 
-    </div>
-  </div>
+    <!-- Scroll to Top Button -->
+    <button id="scrollToTopBtn" onclick="scrollToTop()">Scroll to Top</button>
 
-  <!-- Footer -->
-  <footer id="credits" class="footer-credits">
-    <p>Ⓒ Paislee House 2024</p>
-  </footer>
+    <!-- Footer -->
+    <footer>
+        <div class="container">
+            <p>&copy; 2024 Bear Left Right Frog. All rights reserved.</p>
+        </div>
+    </footer>
 
-  <!--JavaScript-->
-  <!---
-  <script src="js/jquery-2.1.4.min.js"></script>
-        <script src="js/bootstrap.min.js"></script>
-        <script src="js/script.js"></script>
-  -->
+    <script src="./js/scripts.js"></script>
+
 </body>
-
 </html>
