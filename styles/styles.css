@@ -1,0 +1,36 @@
+@media (max-width: 8.5in) { 
+    p { color: blue; } 
+}
+    
+@media (max-width: 5.0in) { 
+    p { color: red ; } 
+}
+
+@media (max-width: 8.5in) {    
+    article { grid-template-columns: 1fr 5% [start] 90% [end] 5% 1fr; }
+}
+
+@media (max-width: 8.5in) {    
+    article { grid-template-columns: 1fr 5% [start] 15% 60% 15%[end] 5% 1fr; }
+}
+
+table {
+    border-collapse: collapse;
+    width: 50%;
+    margin: 20px auto;
+}
+th,
+td {
+    padding: 10px;
+    border: 1px solid #ddd;
+    text-align: left;
+}
+th {
+    background-color: #4CAF50;
+    color: white;
+}
+input {
+    padding: 8px;
+    width: 80%;
+    box-sizing: border-box;
+}

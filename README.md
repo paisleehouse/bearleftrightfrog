@@ -1,2 +1,2 @@
 # bearleftrightfrog
-personal blog
+personal wellness tracking
