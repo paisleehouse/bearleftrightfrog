@@ -1,34 +1,45 @@
 <html>
 <body>
 
+<?php 
+$emotional = htmlspecialchars($emotional);
+$physical = htmlspecialchars($physical);
+$occupational = htmlspecialchars($occupational);
+$social = htmlspecialchars($social);
+$spiritual = htmlspecialchars($spiritual);
+$intellectual = htmlspecialchars($intellectual);
+$environmental = htmlspecialchars($environmental);
+$financial = htmlspecialchars($financial);
+?>
+
 Thanks for taking care of yourself!
 <br>
 <br>
 Here are the wellness items you submitted: 
 <br>
 <br>
-Emotional -  <?php echo $_POST["emotional"]; ?>
+Emotional -  <?php echo htmlspecialchars($_POST["emotional"]); ?>
 <br>
 <br>
-Physical - 
+Physical - <?php echo htmlspecialchars($_POST["physical"]); ?>
 <br>
 <br>
-Occupational - 
+Occupational - <?php echo htmlspecialchars($_POST["occupational"]); ?>
 <br>
 <br>
-Social - 
+Social - <?php echo htmlspecialchars($_POST["social"]); ?>
 <br>
 <br>
-Spiritual - 
+Spiritual - <?php echo htmlspecialchars($_POST["spiritual"]); ?>
 <br>
 <br>
-Intellectual - 
+Intellectual - <?php echo htmlspecialchars($_POST["intellectual"]); ?>
 <br>
 <br>
-Environmental - 
+Environmental - <?php echo htmlspecialchars($_POST["environmental"]); ?>
 <br>
 <br>
-Financial - 
+Financial - <?php echo htmlspecialchars($_POST["financial"]); ?>
 <br>
 <br>
 
