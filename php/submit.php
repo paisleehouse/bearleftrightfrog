@@ -1,25 +1,36 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <title>Wellness Data</title>
-</head>
+<html>
 <body>
 
-Thank you for taking care of yourself!!
+Thanks for taking care of yourself!
 <br>
 <br>
-<p>Here is the information you have submitted:</p>
-    <ol>
-        <li><em>Emotional:</em> <?php echo $_POST["emotional"]?></li>
-        <li><em>Physical:</em> <?php echo $_POST["physical"]?></li>
-        <li><em>Occupational:</em> <?php echo $_POST["occupational"]?></li>
-        <li><em>Social:</em> <?php echo $_POST["social"]?></li>
-    </ol>
-
-
-
-
+Here are the wellness items you submitted: 
+<br>
+<br>
+Emotional -  <?php echo $_POST["emotional"]; ?>
+<br>
+<br>
+Physical - 
+<br>
+<br>
+Occupational - 
+<br>
+<br>
+Social - 
+<br>
+<br>
+Spiritual - 
+<br>
+<br>
+Intellectual - 
+<br>
+<br>
+Environmental - 
+<br>
+<br>
+Financial - 
+<br>
+<br>
 
 </body>
 </html>
