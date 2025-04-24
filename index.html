@@ -7,29 +7,36 @@
 
     <body>
 
-        <form id="wellnessForm" action="submit.php" method="POST">
-        <table name="wellnessDay">
-            <tr>
-                <td>Emotional<input type="text" name="emotional"></td>
-                <td>Physical<input type="text"></td>
-                <td>Occupational<input type="text"></td>
-                <td>Social<input type="text"></td>
-            </tr>
-            <tr>
-                <td>Spiritual<input type="text"></td>
-                <td>Intellectual<input type="text"></td>
-                <td>Environmental<input type="text"></td>
-                <td>Financial<input type="text"></td>
-            </tr>
-        </table>
-        <input type="button" onclick="myFunction()" value="Submit">
+        <form action="submit.php" method="POST">
+
+            <label>Emotional</label>
+            <input type="text" name="emotional" id="inputEmotional">
+            <br>
+            <label>Physical</label>
+            <input type="text" name="physical" id="inputPhysical">
+            <br>
+            <label>Occupational</label>
+            <input type="text" name="occupational" id="inputOccupational">
+            <br>
+            <label>Social</label>
+            <input type="text" name="social" id="inputSocial">
+            <br>
+            <label>Spiritual</label>
+            <input type="text" name="spiritual" id="inputSpiritual">
+            <br>
+            <label>Intellectual</label>
+            <input type="text" name="intellectual" id="inputIntellectual">
+            <br>
+            <label>Environmental</label>
+            <input type="text" name="envrionmental" id="inputEnvironmental">
+            <br>
+            <label>Financial</label>
+            <input type="text" name="financial" id="inputFinancial">
+            <br>
+            <input type="submit" value="Submit">
+            <input type="reset" value="Reset">
+
         </form>
-
-        <script>
-            function myFunction() {
-              document.getElementById("wellnessForm").submit();
-            }
-            </script>
-
+        
     </body>
 </html>
